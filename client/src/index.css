@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glassmorphism {
+  background: rgba(255, 233, 200, 0.623);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(116, 116, 116, 0.445);
+}
+.gradient-bg {
+  background: linear-gradient(135deg, #e7e7e7 0%, #e4e3e3 50%, #e9e7e2 100%);
+}
