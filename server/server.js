@@ -21,11 +21,12 @@ connectDB();
 // ✅ CORS fix (localhost + vercel)
 app.use(cors({
   origin: [
-    "http://localhost:5173",
-    "https://clutch-coins-front.vercel.app"
+    "http://localhost:5173", // local testing
+    "https://portal-test-one.vercel.app" // live frontend
   ],
   credentials: true
 }));
+
 
 // ✅ Session middleware for passport
 app.use(session({
